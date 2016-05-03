@@ -2,7 +2,7 @@
 class View_top extends CI_Controller{
 
 	public function index(){
-		if($this->session->has_userdata('cid')){        // after creating a topic
+		if($this->session->has_userdata('cid')){        // after creating a topi
 			$tid = $this->session->userdata('tid');
 			$cid = $this->session->userdata('cid');	
 		}else{		

@@ -41,7 +41,7 @@ if($this->session->has_userdata('username')){
    <br/>
    <div class="gg">
    Email : <input type="email" required class="i" name="email" id="i5" size="25" maxlength="50"/><div id="z5"  class="z"></div></div>
-  <br/>Profile Picture : <input type="file" class="i" name="file_img" id="file_img" /> <br /><br />	
+  <br/>Profile Picture : <input type="file" class="i" name="file_img"  /> <br /><br />	
   <br/>Captcha :<div class="cap" id="cap1"> <?php echo $image; ?></div>
   <input type="hidden" name="cap" value="<?php echo $word; ?>" />
   <br/><br/><input type="username" required class="i" name="cap_input" id="i7" size="25"/><div id="z6"  class="z"></div> 

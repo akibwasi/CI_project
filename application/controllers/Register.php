@@ -2,7 +2,7 @@
 class Register extends CI_Controller{
     
 	public function _construct(){
-		parent::_construct();
+		parent::_construct();                 // super() in java
 		$this->load->library('image_lib');
 		$this->load->helper(array('captcha'));
 	}
